@@ -1,0 +1,51 @@
+.top{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #344151;
+    flex-direction: column;
+    gap: 10px;
+    color: aliceblue;
+
+}
+.reset{
+    background-color: blue;
+    margin-top: 20px;
+    color: white;
+    font-size: large;
+    border-radius: 4px;
+    height:50px;
+    border: 2px solid blue;
+    width: 80px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+.inc, .dec{
+    border-radius: 2px;
+    width: 40px;
+    height: 40px;
+    color: black;
+    font-size: 30px;
+}
+.inc{
+    border-right: 2px;
+
+}
+.dec{
+    border-left: 2px;
+}
